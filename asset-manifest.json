@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cursor-HW19/static/css/main.3680e41c.css",
+    "main.js": "/Cursor-HW19/static/js/main.aaaf76d3.js",
+    "index.html": "/Cursor-HW19/index.html",
+    "main.3680e41c.css.map": "/Cursor-HW19/static/css/main.3680e41c.css.map",
+    "main.aaaf76d3.js.map": "/Cursor-HW19/static/js/main.aaaf76d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3680e41c.css",
+    "static/js/main.aaaf76d3.js"
+  ]
+}
