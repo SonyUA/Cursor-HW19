@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.box {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.twoDots {
+    animation: myAnim 2s linear 0s infinite normal none;
+}
+@keyframes myAnim {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+.clock {
+    font-size: 60px;
+    color: #fff;
+}
+.btn {
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s ease;
+    color: #fff;
+}
+.btn:hover {
+    color: rgb(10, 169, 169);
+    transform: scale(0.8);
+}
+btn:active {
+    color: rgb(10, 169, 169);
+}
+.text {
+    font-size: 20px;
+    text-align: center;
+}
+.select {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+.select:hover {
+    color: rgb(10, 169, 169);
+}
